@@ -1,5 +1,7 @@
 # pj-engine
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24591697.svg)](https://doi.org/10.5281/zenodo.24591697) [![Demo on Hugging Face](https://img.shields.io/badge/demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/pocketjyotish/pj-engine)
+
 The browser-first Jyotish calculation layer from [Pocket Jyotish](https://pocketjyotish.in). It runs in browsers and Node 18 or later, with no account, network request or DOM access.
 
 Built by the Pocket Jyotish team. MIT licensed.
