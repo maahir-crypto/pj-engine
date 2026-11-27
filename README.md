@@ -22,6 +22,15 @@ npm test
 
 To use it from another project, install the cloned directory with `npm install /path/to/pj-engine`.
 
+In a browser you can also load the tagged release straight from the jsDelivr CDN, with no install:
+
+```html
+<script type="module">
+  import { panchang } from 'https://cdn.jsdelivr.net/gh/maahir-crypto/pj-engine@v0.1.0/dist/index.js';
+  console.log(panchang('2026-01-01', { lat: 25.3176, lon: 82.9739, tz: 'Asia/Kolkata' }));
+</script>
+```
+
 The runtime includes a vendored ESM adaptation of MIT-licensed `astronomy-engine` 2.1.19, the sole runtime dependency. No native code or ephemeris data files are shipped. The license and adaptation are recorded in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). There are no install scripts.
 
 The source is ESM JavaScript with JSDoc and a hand-written TypeScript declaration file because `tsc` was unavailable. Built files are included. `npm run build` copies the source and declarations to `dist` without installing a compiler.
