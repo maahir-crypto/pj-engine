@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+__pycache__/
+*.tgz
+benchmark/ephe/
+.DS_Store
+.env
+*.log
+.oracle/
+oracle*/
+*.so
+*.pyc

@@ -1,0 +1,30 @@
+{
+  "name": "pj-engine",
+  "version": "0.1.0",
+  "description": "Browser and Node Jyotish calculations from Pocket Jyotish",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "vendor",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md",
+    "BENCHMARK.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node tests/run.mjs",
+    "benchmark": "node benchmark/run_benchmark.mjs"
+  }
+}

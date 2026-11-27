@@ -1,0 +1,1849 @@
+{
+  "metadata": {
+    "seed": 20261127,
+    "randomCharts": 350,
+    "edgeCharts": 68,
+    "python": "3.12.14",
+    "pyswissephDistribution": "2.10.3.2",
+    "pyswissephBuild": 20230604,
+    "swiss": "2.10.03",
+    "ephemeris": "Moshier",
+    "ephemerisSha256": {},
+    "flags": 4,
+    "siderealMode": 1,
+    "cities": 70,
+    "indiaCities": 45
+  },
+  "chartCount": 418,
+  "timezoneExcluded": [
+    {
+      "id": 110,
+      "input": {
+        "year": 1947,
+        "month": 11,
+        "day": 18,
+        "hour": 5,
+        "minute": 4,
+        "lat": 64.15,
+        "lon": -21.94,
+        "tz": "Atlantic/Reykjavik"
+      },
+      "packageOffset": 0,
+      "referenceOffset": -60
+    }
+  ],
+  "boundaryBodyCases": 34,
+  "polarMissing": 1,
+  "solarMissing": 0,
+  "solarDisagreements": 0,
+  "ingressMissing": 0,
+  "extraIngress": 0,
+  "results": [
+    {
+      "name": "Sun",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 0.32967213865049416,
+      "p95": 1.0610001774693956,
+      "max": 1.7104182084494823,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 1.7104182084494823,
+          "details": {
+            "id": 353,
+            "input": {
+              "year": 2050,
+              "month": 12,
+              "day": 31,
+              "hour": 23,
+              "minute": 59,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 1.662833938280528,
+          "details": {
+            "id": 164,
+            "input": {
+              "year": 1971,
+              "month": 2,
+              "day": 5,
+              "hour": 21,
+              "minute": 47,
+              "lat": 17.69,
+              "lon": 83.22,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 1.492087157930655,
+          "details": {
+            "id": 4,
+            "input": {
+              "year": 1901,
+              "month": 10,
+              "day": 19,
+              "hour": 14,
+              "minute": 44,
+              "lat": 40.71,
+              "lon": -74.01,
+              "tz": "America/New_York"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Planets and mean nodes",
+      "count": 3753,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 0.6869686772461137,
+      "p95": 5.684989460587531,
+      "max": 13.726578134264855,
+      "passed": 3737,
+      "passRate": 99.57367439381828,
+      "worst": [
+        {
+          "error": 13.726578134264855,
+          "details": {
+            "id": 219,
+            "input": {
+              "year": 1994,
+              "month": 10,
+              "day": 21,
+              "hour": 18,
+              "minute": 4,
+              "lat": -36.85,
+              "lon": 174.76,
+              "tz": "Pacific/Auckland"
+            },
+            "body": "Venus"
+          }
+        },
+        {
+          "error": 13.523190365685878,
+          "details": {
+            "id": 264,
+            "input": {
+              "year": 2014,
+              "month": 2,
+              "day": 10,
+              "hour": 2,
+              "minute": 38,
+              "lat": 25.2,
+              "lon": 55.27,
+              "tz": "Asia/Dubai"
+            },
+            "body": "Venus"
+          }
+        },
+        {
+          "error": 13.416725422712261,
+          "details": {
+            "id": 23,
+            "input": {
+              "year": 1910,
+              "month": 3,
+              "day": 16,
+              "hour": 1,
+              "minute": 48,
+              "lat": 22.72,
+              "lon": 75.86,
+              "tz": "Asia/Kolkata"
+            },
+            "body": "Venus"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rashi all nine bodies",
+      "count": 3753,
+      "unit": "mismatch",
+      "tolerance": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 1,
+      "passed": 3752,
+      "passRate": 99.97335464961364,
+      "worst": [
+        {
+          "error": 1,
+          "details": {
+            "id": 394,
+            "input": {
+              "year": 1981,
+              "month": 2,
+              "day": 3,
+              "hour": 11,
+              "minute": 52,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            },
+            "body": "Moon"
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            },
+            "body": "Sun"
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            },
+            "body": "Moon"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nakshatra all nine bodies",
+      "count": 3753,
+      "unit": "mismatch",
+      "tolerance": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0,
+      "passed": 3753,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            },
+            "body": "Sun"
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            },
+            "body": "Moon"
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            },
+            "body": "Mars"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pada all nine bodies",
+      "count": 3753,
+      "unit": "mismatch",
+      "tolerance": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 1,
+      "passed": 3752,
+      "passRate": 99.97335464961364,
+      "worst": [
+        {
+          "error": 1,
+          "details": {
+            "id": 394,
+            "input": {
+              "year": 1981,
+              "month": 2,
+              "day": 3,
+              "hour": 11,
+              "minute": 52,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            },
+            "body": "Moon"
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            },
+            "body": "Sun"
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            },
+            "body": "Moon"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Moon",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 1.0521974245875754,
+      "p95": 7.4164382492199366,
+      "max": 10.605557771896201,
+      "passed": 414,
+      "passRate": 99.28057553956835,
+      "worst": [
+        {
+          "error": 10.605557771896201,
+          "details": {
+            "id": 349,
+            "input": {
+              "year": 2050,
+              "month": 11,
+              "day": 26,
+              "hour": 0,
+              "minute": 19,
+              "lat": 15.5,
+              "lon": 73.83,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 10.288280033273622,
+          "details": {
+            "id": 348,
+            "input": {
+              "year": 2050,
+              "month": 3,
+              "day": 19,
+              "hour": 3,
+              "minute": 41,
+              "lat": 26.91,
+              "lon": 75.79,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 10.102412824289786,
+          "details": {
+            "id": 335,
+            "input": {
+              "year": 2044,
+              "month": 12,
+              "day": 4,
+              "hour": 21,
+              "minute": 58,
+              "lat": 34.08,
+              "lon": 74.8,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mars",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 0.9363522753574216,
+      "p95": 4.312959099570435,
+      "max": 8.977964963105478,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 8.977964963105478,
+          "details": {
+            "id": 314,
+            "input": {
+              "year": 2035,
+              "month": 8,
+              "day": 20,
+              "hour": 10,
+              "minute": 4,
+              "lat": 12.97,
+              "lon": 77.59,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 8.643068076435156,
+          "details": {
+            "id": 17,
+            "input": {
+              "year": 1907,
+              "month": 8,
+              "day": 24,
+              "hour": 6,
+              "minute": 2,
+              "lat": 23.34,
+              "lon": 85.31,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 7.527359026244085,
+          "details": {
+            "id": 131,
+            "input": {
+              "year": 1956,
+              "month": 9,
+              "day": 17,
+              "hour": 15,
+              "minute": 43,
+              "lat": 19.08,
+              "lon": 72.88,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mercury",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 1.5448325960278453,
+      "p95": 5.077994351358939,
+      "max": 7.910269348803922,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 7.910269348803922,
+          "details": {
+            "id": 54,
+            "input": {
+              "year": 1923,
+              "month": 6,
+              "day": 5,
+              "hour": 22,
+              "minute": 12,
+              "lat": 25.2,
+              "lon": 55.27,
+              "tz": "Asia/Dubai"
+            }
+          }
+        },
+        {
+          "error": 7.069736811536131,
+          "details": {
+            "id": 163,
+            "input": {
+              "year": 1970,
+              "month": 7,
+              "day": 6,
+              "hour": 2,
+              "minute": 53,
+              "lat": 22.72,
+              "lon": 75.86,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 7.010421300492453,
+          "details": {
+            "id": 62,
+            "input": {
+              "year": 1927,
+              "month": 3,
+              "day": 3,
+              "hour": 2,
+              "minute": 28,
+              "lat": 23.83,
+              "lon": 91.29,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jupiter",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 2.277925534190217,
+      "p95": 6.4522022477376595,
+      "max": 9.809203224585872,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 9.809203224585872,
+          "details": {
+            "id": 251,
+            "input": {
+              "year": 2008,
+              "month": 8,
+              "day": 31,
+              "hour": 22,
+              "minute": 33,
+              "lat": 25.32,
+              "lon": 82.97,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 9.43552366197764,
+          "details": {
+            "id": 114,
+            "input": {
+              "year": 1949,
+              "month": 7,
+              "day": 24,
+              "hour": 13,
+              "minute": 29,
+              "lat": 27.08,
+              "lon": 93.61,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 8.608778861844257,
+          "details": {
+            "id": 238,
+            "input": {
+              "year": 2002,
+              "month": 12,
+              "day": 31,
+              "hour": 6,
+              "minute": 58,
+              "lat": 26.14,
+              "lon": 91.74,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Venus",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 0.8968700763944071,
+      "p95": 5.240659389892244,
+      "max": 13.726578134264855,
+      "passed": 411,
+      "passRate": 98.56115107913669,
+      "worst": [
+        {
+          "error": 13.726578134264855,
+          "details": {
+            "id": 219,
+            "input": {
+              "year": 1994,
+              "month": 10,
+              "day": 21,
+              "hour": 18,
+              "minute": 4,
+              "lat": -36.85,
+              "lon": 174.76,
+              "tz": "Pacific/Auckland"
+            }
+          }
+        },
+        {
+          "error": 13.523190365685878,
+          "details": {
+            "id": 264,
+            "input": {
+              "year": 2014,
+              "month": 2,
+              "day": 10,
+              "hour": 2,
+              "minute": 38,
+              "lat": 25.2,
+              "lon": 55.27,
+              "tz": "Asia/Dubai"
+            }
+          }
+        },
+        {
+          "error": 13.416725422712261,
+          "details": {
+            "id": 23,
+            "input": {
+              "year": 1910,
+              "month": 3,
+              "day": 16,
+              "hour": 1,
+              "minute": 48,
+              "lat": 22.72,
+              "lon": 75.86,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Saturn",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 2.5303800344772753,
+      "p95": 8.42725808670366,
+      "max": 12.198330916453415,
+      "passed": 410,
+      "passRate": 98.32134292565947,
+      "worst": [
+        {
+          "error": 12.198330916453415,
+          "details": {
+            "id": 235,
+            "input": {
+              "year": 2001,
+              "month": 8,
+              "day": 18,
+              "hour": 16,
+              "minute": 35,
+              "lat": 17.39,
+              "lon": 78.49,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 11.321129953603304,
+          "details": {
+            "id": 236,
+            "input": {
+              "year": 2002,
+              "month": 3,
+              "day": 3,
+              "hour": 4,
+              "minute": 10,
+              "lat": 20.3,
+              "lon": 85.82,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 11.159643244081963,
+          "details": {
+            "id": 405,
+            "input": {
+              "year": 2001,
+              "month": 2,
+              "day": 1,
+              "hour": 9,
+              "minute": 17,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rahu",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 0.08024760631997196,
+      "p95": 0.11825957608380122,
+      "max": 0.11962723256147001,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0.11962723256147001,
+          "details": {
+            "id": 278,
+            "input": {
+              "year": 2019,
+              "month": 12,
+              "day": 31,
+              "hour": 21,
+              "minute": 38,
+              "lat": 26.91,
+              "lon": 75.79,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0.119609854027658,
+          "details": {
+            "id": 277,
+            "input": {
+              "year": 2019,
+              "month": 8,
+              "day": 1,
+              "hour": 3,
+              "minute": 32,
+              "lat": 52.52,
+              "lon": 13.41,
+              "tz": "Europe/Berlin"
+            }
+          }
+        },
+        {
+          "error": 0.11959641433350043,
+          "details": {
+            "id": 276,
+            "input": {
+              "year": 2019,
+              "month": 6,
+              "day": 24,
+              "hour": 1,
+              "minute": 37,
+              "lat": 22.31,
+              "lon": 73.18,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ketu",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 0.08024760631997196,
+      "p95": 0.11825957608380122,
+      "max": 0.11962723256147001,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0.11962723256147001,
+          "details": {
+            "id": 278,
+            "input": {
+              "year": 2019,
+              "month": 12,
+              "day": 31,
+              "hour": 21,
+              "minute": 38,
+              "lat": 26.91,
+              "lon": 75.79,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0.119609854027658,
+          "details": {
+            "id": 277,
+            "input": {
+              "year": 2019,
+              "month": 8,
+              "day": 1,
+              "hour": 3,
+              "minute": 32,
+              "lat": 52.52,
+              "lon": 13.41,
+              "tz": "Europe/Berlin"
+            }
+          }
+        },
+        {
+          "error": 0.11959641433350043,
+          "details": {
+            "id": 276,
+            "input": {
+              "year": 2019,
+              "month": 6,
+              "day": 24,
+              "hour": 1,
+              "minute": 37,
+              "lat": 22.31,
+              "lon": 73.18,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Moon nakshatra",
+      "count": 417,
+      "unit": "mismatch",
+      "tolerance": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 1,
+            "input": {
+              "year": 1900,
+              "month": 7,
+              "day": 18,
+              "hour": 19,
+              "minute": 13,
+              "lat": 23.73,
+              "lon": 92.72,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 2,
+            "input": {
+              "year": 1900,
+              "month": 12,
+              "day": 29,
+              "hour": 19,
+              "minute": 0,
+              "lat": -1.29,
+              "lon": 36.82,
+              "tz": "Africa/Nairobi"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Moon pada",
+      "count": 417,
+      "unit": "mismatch",
+      "tolerance": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 1,
+      "passed": 416,
+      "passRate": 99.76019184652279,
+      "worst": [
+        {
+          "error": 1,
+          "details": {
+            "id": 394,
+            "input": {
+              "year": 1981,
+              "month": 2,
+              "day": 3,
+              "hour": 11,
+              "minute": 52,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 1,
+            "input": {
+              "year": 1900,
+              "month": 7,
+              "day": 18,
+              "hour": 19,
+              "minute": 13,
+              "lat": 23.73,
+              "lon": 92.72,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rahu true separately",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 10,
+      "median": 7.213506422203864,
+      "p95": 23.870670608494038,
+      "max": 38.836531852939515,
+      "passed": 261,
+      "passRate": 62.589928057553955,
+      "worst": [
+        {
+          "error": 38.836531852939515,
+          "details": {
+            "id": 293,
+            "input": {
+              "year": 2026,
+              "month": 7,
+              "day": 21,
+              "hour": 5,
+              "minute": 51,
+              "lat": 60.17,
+              "lon": 24.94,
+              "tz": "Europe/Helsinki"
+            }
+          }
+        },
+        {
+          "error": 36.004907540427666,
+          "details": {
+            "id": 320,
+            "input": {
+              "year": 2038,
+              "month": 4,
+              "day": 15,
+              "hour": 2,
+              "minute": 23,
+              "lat": 64.15,
+              "lon": -21.94,
+              "tz": "Atlantic/Reykjavik"
+            }
+          }
+        },
+        {
+          "error": 32.12951809982769,
+          "details": {
+            "id": 282,
+            "input": {
+              "year": 2021,
+              "month": 10,
+              "day": 15,
+              "hour": 2,
+              "minute": 15,
+              "lat": -1.29,
+              "lon": 36.82,
+              "tz": "Africa/Nairobi"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ascendant",
+      "count": 417,
+      "unit": "arcsec",
+      "tolerance": 60,
+      "median": 0.1326451246313809,
+      "p95": 0.25623547326176777,
+      "max": 2.3170857190962124,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 2.3170857190962124,
+          "details": {
+            "id": 348,
+            "input": {
+              "year": 2050,
+              "month": 3,
+              "day": 19,
+              "hour": 3,
+              "minute": 41,
+              "lat": 26.91,
+              "lon": 75.79,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 1.9996446000732249,
+          "details": {
+            "id": 349,
+            "input": {
+              "year": 2050,
+              "month": 11,
+              "day": 26,
+              "hour": 0,
+              "minute": 19,
+              "lat": 15.5,
+              "lon": 73.83,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 1.825568153299173,
+          "details": {
+            "id": 353,
+            "input": {
+              "year": 2050,
+              "month": 12,
+              "day": 31,
+              "hour": 23,
+              "minute": 59,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ascendant latitude below 30",
+      "count": 283,
+      "unit": "arcsec",
+      "tolerance": 60,
+      "median": 0.1326451246313809,
+      "p95": 0.25623547326176777,
+      "max": 2.3170857190962124,
+      "passed": 283,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 2.3170857190962124,
+          "details": {
+            "id": 348,
+            "input": {
+              "year": 2050,
+              "month": 3,
+              "day": 19,
+              "hour": 3,
+              "minute": 41,
+              "lat": 26.91,
+              "lon": 75.79,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 1.9996446000732249,
+          "details": {
+            "id": 349,
+            "input": {
+              "year": 2050,
+              "month": 11,
+              "day": 26,
+              "hour": 0,
+              "minute": 19,
+              "lat": 15.5,
+              "lon": 73.83,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 1.825568153299173,
+          "details": {
+            "id": 353,
+            "input": {
+              "year": 2050,
+              "month": 12,
+              "day": 31,
+              "hour": 23,
+              "minute": 59,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ascendant rashi",
+      "count": 417,
+      "unit": "mismatch",
+      "tolerance": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 1,
+            "input": {
+              "year": 1900,
+              "month": 7,
+              "day": 18,
+              "hour": 19,
+              "minute": 13,
+              "lat": 23.73,
+              "lon": 92.72,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 2,
+            "input": {
+              "year": 1900,
+              "month": 12,
+              "day": 29,
+              "hour": 19,
+              "minute": 0,
+              "lat": -1.29,
+              "lon": 36.82,
+              "tz": "Africa/Nairobi"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "tithi",
+      "count": 417,
+      "unit": "mismatch",
+      "tolerance": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 1,
+            "input": {
+              "year": 1900,
+              "month": 7,
+              "day": 18,
+              "hour": 19,
+              "minute": 13,
+              "lat": 23.73,
+              "lon": 92.72,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 2,
+            "input": {
+              "year": 1900,
+              "month": 12,
+              "day": 29,
+              "hour": 19,
+              "minute": 0,
+              "lat": -1.29,
+              "lon": 36.82,
+              "tz": "Africa/Nairobi"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "karana",
+      "count": 417,
+      "unit": "mismatch",
+      "tolerance": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 1,
+            "input": {
+              "year": 1900,
+              "month": 7,
+              "day": 18,
+              "hour": 19,
+              "minute": 13,
+              "lat": 23.73,
+              "lon": 92.72,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 2,
+            "input": {
+              "year": 1900,
+              "month": 12,
+              "day": 29,
+              "hour": 19,
+              "minute": 0,
+              "lat": -1.29,
+              "lon": 36.82,
+              "tz": "Africa/Nairobi"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "yoga",
+      "count": 417,
+      "unit": "mismatch",
+      "tolerance": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0,
+          "details": {
+            "id": 0,
+            "input": {
+              "year": 1900,
+              "month": 1,
+              "day": 6,
+              "hour": 19,
+              "minute": 31,
+              "lat": 28.61,
+              "lon": 77.21,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 1,
+            "input": {
+              "year": 1900,
+              "month": 7,
+              "day": 18,
+              "hour": 19,
+              "minute": 13,
+              "lat": 23.73,
+              "lon": 92.72,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 2,
+            "input": {
+              "year": 1900,
+              "month": 12,
+              "day": 29,
+              "hour": 19,
+              "minute": 0,
+              "lat": -1.29,
+              "lon": 36.82,
+              "tz": "Africa/Nairobi"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tithi end",
+      "count": 417,
+      "unit": "minutes",
+      "tolerance": 1,
+      "median": 0.03956669108072917,
+      "p95": 0.24234029134114585,
+      "max": 0.3181785888671875,
+      "passed": 417,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0.3181785888671875,
+          "details": {
+            "id": 343,
+            "input": {
+              "year": 2047,
+              "month": 12,
+              "day": 30,
+              "hour": 17,
+              "minute": 53,
+              "lat": 30.04,
+              "lon": 31.24,
+              "tz": "Africa/Cairo"
+            }
+          }
+        },
+        {
+          "error": 0.316714404296875,
+          "details": {
+            "id": 329,
+            "input": {
+              "year": 2041,
+              "month": 12,
+              "day": 19,
+              "hour": 18,
+              "minute": 33,
+              "lat": 40.42,
+              "lon": -3.7,
+              "tz": "Europe/Madrid"
+            }
+          }
+        },
+        {
+          "error": 0.29912264811197914,
+          "details": {
+            "id": 346,
+            "input": {
+              "year": 2049,
+              "month": 6,
+              "day": 7,
+              "hour": 0,
+              "minute": 54,
+              "lat": 22.31,
+              "lon": 73.18,
+              "tz": "Asia/Kolkata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mahadasha start",
+      "count": 3753,
+      "unit": "days",
+      "tolerance": 1,
+      "median": 0.09856100694444445,
+      "p95": 0.6996954976851851,
+      "max": 1.390497025462963,
+      "passed": 3663,
+      "passRate": 97.60191846522783,
+      "worst": [
+        {
+          "error": 1.390497025462963,
+          "details": {
+            "id": 342,
+            "input": {
+              "year": 2047,
+              "month": 10,
+              "day": 24,
+              "hour": 17,
+              "minute": 36,
+              "lat": 23.83,
+              "lon": 91.29,
+              "tz": "Asia/Kolkata"
+            },
+            "period": 0,
+            "lord": "Venus",
+            "referenceLord": "Venus"
+          }
+        },
+        {
+          "error": 1.390497025462963,
+          "details": {
+            "id": 342,
+            "input": {
+              "year": 2047,
+              "month": 10,
+              "day": 24,
+              "hour": 17,
+              "minute": 36,
+              "lat": 23.83,
+              "lon": 91.29,
+              "tz": "Asia/Kolkata"
+            },
+            "period": 1,
+            "lord": "Sun",
+            "referenceLord": "Sun"
+          }
+        },
+        {
+          "error": 1.390497025462963,
+          "details": {
+            "id": 342,
+            "input": {
+              "year": 2047,
+              "month": 10,
+              "day": 24,
+              "hour": 17,
+              "minute": 36,
+              "lat": 23.83,
+              "lon": 91.29,
+              "tz": "Asia/Kolkata"
+            },
+            "period": 2,
+            "lord": "Moon",
+            "referenceLord": "Moon"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sunrise",
+      "count": 416,
+      "unit": "seconds",
+      "tolerance": 60,
+      "median": 1.92722802734375,
+      "p95": 3.1608125,
+      "max": 11.385494873046875,
+      "passed": 416,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 11.385494873046875,
+          "details": {
+            "id": 241,
+            "input": {
+              "year": 2004,
+              "month": 5,
+              "day": 10,
+              "hour": 11,
+              "minute": 5,
+              "lat": 69.65,
+              "lon": 18.96,
+              "tz": "Europe/Oslo"
+            }
+          }
+        },
+        {
+          "error": 6.50192431640625,
+          "details": {
+            "id": 311,
+            "input": {
+              "year": 2034,
+              "month": 4,
+              "day": 24,
+              "hour": 14,
+              "minute": 25,
+              "lat": 69.65,
+              "lon": 18.96,
+              "tz": "Europe/Oslo"
+            }
+          }
+        },
+        {
+          "error": 5.951341796875,
+          "details": {
+            "id": 223,
+            "input": {
+              "year": 1996,
+              "month": 6,
+              "day": 21,
+              "hour": 5,
+              "minute": 49,
+              "lat": 60.17,
+              "lon": 24.94,
+              "tz": "Europe/Helsinki"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sunset",
+      "count": 416,
+      "unit": "seconds",
+      "tolerance": 60,
+      "median": 1.905245849609375,
+      "p95": 3.038767578125,
+      "max": 12.216780029296874,
+      "passed": 416,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 12.216780029296874,
+          "details": {
+            "id": 241,
+            "input": {
+              "year": 2004,
+              "month": 5,
+              "day": 10,
+              "hour": 11,
+              "minute": 5,
+              "lat": 69.65,
+              "lon": 18.96,
+              "tz": "Europe/Oslo"
+            }
+          }
+        },
+        {
+          "error": 6.539313720703125,
+          "details": {
+            "id": 311,
+            "input": {
+              "year": 2034,
+              "month": 4,
+              "day": 24,
+              "hour": 14,
+              "minute": 25,
+              "lat": 69.65,
+              "lon": 18.96,
+              "tz": "Europe/Oslo"
+            }
+          }
+        },
+        {
+          "error": 5.795502197265625,
+          "details": {
+            "id": 250,
+            "input": {
+              "year": 2007,
+              "month": 11,
+              "day": 27,
+              "hour": 12,
+              "minute": 12,
+              "lat": 64.15,
+              "lon": -21.94,
+              "tz": "Atlantic/Reykjavik"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ascendant latitude 30 to below 60",
+      "count": 120,
+      "unit": "arcsec",
+      "tolerance": 60,
+      "median": 0.1337685362159391,
+      "p95": 0.2556118408392649,
+      "max": 0.44885829770464625,
+      "passed": 120,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0.44885829770464625,
+          "details": {
+            "id": 162,
+            "input": {
+              "year": 1970,
+              "month": 1,
+              "day": 5,
+              "hour": 10,
+              "minute": 50,
+              "lat": 59.91,
+              "lon": 10.75,
+              "tz": "Europe/Oslo"
+            }
+          }
+        },
+        {
+          "error": 0.3458582165876578,
+          "details": {
+            "id": 155,
+            "input": {
+              "year": 1967,
+              "month": 3,
+              "day": 23,
+              "hour": 7,
+              "minute": 37,
+              "lat": 51.51,
+              "lon": -0.13,
+              "tz": "Europe/London"
+            }
+          }
+        },
+        {
+          "error": 0.3103033235674957,
+          "details": {
+            "id": 56,
+            "input": {
+              "year": 1924,
+              "month": 5,
+              "day": 9,
+              "hour": 6,
+              "minute": 13,
+              "lat": 43.65,
+              "lon": -79.38,
+              "tz": "America/Toronto"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ascendant latitude 60 and above",
+      "count": 14,
+      "unit": "arcsec",
+      "tolerance": 60,
+      "median": 0.11212308245376335,
+      "p95": 0.23990790200514311,
+      "max": 0.23990790200514311,
+      "passed": 14,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0.23990790200514311,
+          "details": {
+            "id": 223,
+            "input": {
+              "year": 1996,
+              "month": 6,
+              "day": 21,
+              "hour": 5,
+              "minute": 49,
+              "lat": 60.17,
+              "lon": 24.94,
+              "tz": "Europe/Helsinki"
+            }
+          }
+        },
+        {
+          "error": 0.20010416046716273,
+          "details": {
+            "id": 293,
+            "input": {
+              "year": 2026,
+              "month": 7,
+              "day": 21,
+              "hour": 5,
+              "minute": 51,
+              "lat": 60.17,
+              "lon": 24.94,
+              "tz": "Europe/Helsinki"
+            }
+          }
+        },
+        {
+          "error": 0.17768598854672746,
+          "details": {
+            "id": 180,
+            "input": {
+              "year": 1978,
+              "month": 1,
+              "day": 23,
+              "hour": 18,
+              "minute": 48,
+              "lat": 64.15,
+              "lon": -21.94,
+              "tz": "Atlantic/Reykjavik"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Saturn sign ingress",
+      "count": 85,
+      "unit": "minutes",
+      "tolerance": 10,
+      "median": 11.975625604248046,
+      "p95": 38.2562537495931,
+      "max": 141.720868351237,
+      "passed": 37,
+      "passRate": 43.529411764705884,
+      "worst": [
+        {
+          "error": 141.720868351237,
+          "details": {
+            "referenceTime": "2041-01-27T21:42:06.909Z",
+            "packageTime": "2041-01-27T19:20:23.657Z",
+            "fromSign": 5,
+            "sign": 6,
+            "packageSpeedDegreesPerDay": 0.008484406329273497,
+            "packageLongitudeErrorAtReferenceArcseconds": 3.03754440915327
+          }
+        },
+        {
+          "error": 140.07123559570311,
+          "details": {
+            "referenceTime": "2041-02-06T09:22:24.114Z",
+            "packageTime": "2041-02-06T11:42:28.388Z",
+            "fromSign": 6,
+            "sign": 5,
+            "packageSpeedDegreesPerDay": -0.008433205155995438,
+            "packageLongitudeErrorAtReferenceArcseconds": 2.983045656583272
+          }
+        },
+        {
+          "error": 52.80643612060547,
+          "details": {
+            "referenceTime": "2027-10-20T01:42:13.815Z",
+            "packageTime": "2027-10-20T00:49:25.429Z",
+            "fromSign": 0,
+            "sign": 11,
+            "packageSpeedDegreesPerDay": -0.07961071887984872,
+            "packageLongitudeErrorAtReferenceArcseconds": 10.510745090005003
+          }
+        }
+      ]
+    },
+    {
+      "name": "Guna milan inherited pairs",
+      "count": 200,
+      "unit": "mismatch",
+      "tolerance": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0,
+      "passed": 200,
+      "passRate": 100,
+      "worst": [
+        {
+          "error": 0,
+          "details": {
+            "id": 0
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 1
+          }
+        },
+        {
+          "error": 0,
+          "details": {
+            "id": 2
+          }
+        }
+      ]
+    }
+  ]
+}

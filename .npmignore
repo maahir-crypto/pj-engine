@@ -1,0 +1,6 @@
+src/
+tests/
+benchmark/
+scripts/
+examples/
+*.tgz
