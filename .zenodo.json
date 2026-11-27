@@ -1,0 +1,14 @@
+{
+  "title": "pj-engine: open-source browser Jyotish calculation engine with a reproducible benchmark",
+  "upload_type": "software",
+  "description": "pj-engine is the browser-first Jyotish (Vedic astrology) calculation layer from Pocket Jyotish (https://pocketjyotish.in). It computes kundli, Vimshottari dasha, panchang, Sade Sati and guna milan in browsers and Node 18+, with Lahiri ayanamsa. Benchmarked against the Swiss Ephemeris on 418 charts from 1900 to 2050; every number, tolerance and failure is published in BENCHMARK.md. MIT licensed.",
+  "creators": [
+    {"name": "Madhok, Maahir", "affiliation": "Pocket Jyotish"},
+    {"name": "Pocket Jyotish contributors"}
+  ],
+  "license": "MIT",
+  "keywords": ["jyotish", "vedic astrology", "panchang", "kundli", "ephemeris", "astronomy", "javascript"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/maahir-crypto/pj-engine", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

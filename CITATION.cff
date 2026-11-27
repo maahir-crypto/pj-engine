@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use pj-engine, please cite it as below."
+title: "pj-engine: open-source browser Jyotish calculation engine"
+type: software
+authors:
+  - family-names: Madhok
+    given-names: Maahir
+    affiliation: Pocket Jyotish
+  - name: Pocket Jyotish contributors
+license: MIT
+repository-code: "https://github.com/maahir-crypto/pj-engine"
+url: "https://pocketjyotish.in"
+version: 0.1.0
+date-released: 2026-11-27
+keywords: [jyotish, vedic astrology, panchang, kundli, javascript]
